@@ -1,0 +1,5 @@
+/home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles/Pyramid_2.dir
+/home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles/Pyramid_1.dir
+/home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles/CPP2018.dir

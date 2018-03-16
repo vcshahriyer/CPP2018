@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Pyramid_1.dir/Pyramid_1.cpp.o  -o Pyramid_1 
