@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.o"
+  "CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.o"
   "Pyramid_2.pdb"
   "Pyramid_2"
 )

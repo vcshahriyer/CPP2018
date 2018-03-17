@@ -81,69 +81,95 @@ CMakeFiles/CPP2018.dir/main.cpp.o.provides: CMakeFiles/CPP2018.dir/main.cpp.o.re
 CMakeFiles/CPP2018.dir/main.cpp.o.provides.build: CMakeFiles/CPP2018.dir/main.cpp.o
 
 
-CMakeFiles/CPP2018.dir/Pyramid_1.cpp.o: CMakeFiles/CPP2018.dir/flags.make
-CMakeFiles/CPP2018.dir/Pyramid_1.cpp.o: ../Pyramid_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPP2018.dir/Pyramid_1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP2018.dir/Pyramid_1.cpp.o -c /home/shahriyer/Desktop/CPP2018/Pyramid_1.cpp
+CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.o: CMakeFiles/CPP2018.dir/flags.make
+CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.o: ../Pyramids/Pyramid_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.o -c /home/shahriyer/Desktop/CPP2018/Pyramids/Pyramid_1.cpp
 
-CMakeFiles/CPP2018.dir/Pyramid_1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP2018.dir/Pyramid_1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shahriyer/Desktop/CPP2018/Pyramid_1.cpp > CMakeFiles/CPP2018.dir/Pyramid_1.cpp.i
+CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shahriyer/Desktop/CPP2018/Pyramids/Pyramid_1.cpp > CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.i
 
-CMakeFiles/CPP2018.dir/Pyramid_1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP2018.dir/Pyramid_1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shahriyer/Desktop/CPP2018/Pyramid_1.cpp -o CMakeFiles/CPP2018.dir/Pyramid_1.cpp.s
+CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shahriyer/Desktop/CPP2018/Pyramids/Pyramid_1.cpp -o CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.s
 
-CMakeFiles/CPP2018.dir/Pyramid_1.cpp.o.requires:
+CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.o.requires:
 
-.PHONY : CMakeFiles/CPP2018.dir/Pyramid_1.cpp.o.requires
+.PHONY : CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.o.requires
 
-CMakeFiles/CPP2018.dir/Pyramid_1.cpp.o.provides: CMakeFiles/CPP2018.dir/Pyramid_1.cpp.o.requires
-	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/Pyramid_1.cpp.o.provides.build
-.PHONY : CMakeFiles/CPP2018.dir/Pyramid_1.cpp.o.provides
+CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.o.provides: CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.o.provides.build
+.PHONY : CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.o.provides
 
-CMakeFiles/CPP2018.dir/Pyramid_1.cpp.o.provides.build: CMakeFiles/CPP2018.dir/Pyramid_1.cpp.o
+CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.o.provides.build: CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.o
 
 
-CMakeFiles/CPP2018.dir/Pyramid_2.cpp.o: CMakeFiles/CPP2018.dir/flags.make
-CMakeFiles/CPP2018.dir/Pyramid_2.cpp.o: ../Pyramid_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPP2018.dir/Pyramid_2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP2018.dir/Pyramid_2.cpp.o -c /home/shahriyer/Desktop/CPP2018/Pyramid_2.cpp
+CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.o: CMakeFiles/CPP2018.dir/flags.make
+CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.o: ../Pyramids/Pyramid_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.o -c /home/shahriyer/Desktop/CPP2018/Pyramids/Pyramid_2.cpp
 
-CMakeFiles/CPP2018.dir/Pyramid_2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP2018.dir/Pyramid_2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shahriyer/Desktop/CPP2018/Pyramid_2.cpp > CMakeFiles/CPP2018.dir/Pyramid_2.cpp.i
+CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shahriyer/Desktop/CPP2018/Pyramids/Pyramid_2.cpp > CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.i
 
-CMakeFiles/CPP2018.dir/Pyramid_2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP2018.dir/Pyramid_2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shahriyer/Desktop/CPP2018/Pyramid_2.cpp -o CMakeFiles/CPP2018.dir/Pyramid_2.cpp.s
+CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shahriyer/Desktop/CPP2018/Pyramids/Pyramid_2.cpp -o CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.s
 
-CMakeFiles/CPP2018.dir/Pyramid_2.cpp.o.requires:
+CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.o.requires:
 
-.PHONY : CMakeFiles/CPP2018.dir/Pyramid_2.cpp.o.requires
+.PHONY : CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.o.requires
 
-CMakeFiles/CPP2018.dir/Pyramid_2.cpp.o.provides: CMakeFiles/CPP2018.dir/Pyramid_2.cpp.o.requires
-	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/Pyramid_2.cpp.o.provides.build
-.PHONY : CMakeFiles/CPP2018.dir/Pyramid_2.cpp.o.provides
+CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.o.provides: CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.o.provides.build
+.PHONY : CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.o.provides
 
-CMakeFiles/CPP2018.dir/Pyramid_2.cpp.o.provides.build: CMakeFiles/CPP2018.dir/Pyramid_2.cpp.o
+CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.o.provides.build: CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.o
+
+
+CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.o: CMakeFiles/CPP2018.dir/flags.make
+CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.o: ../LightOJ/lightoj1001.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.o -c /home/shahriyer/Desktop/CPP2018/LightOJ/lightoj1001.cpp
+
+CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shahriyer/Desktop/CPP2018/LightOJ/lightoj1001.cpp > CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.i
+
+CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shahriyer/Desktop/CPP2018/LightOJ/lightoj1001.cpp -o CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.s
+
+CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.o.requires:
+
+.PHONY : CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.o.requires
+
+CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.o.provides: CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.o.provides.build
+.PHONY : CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.o.provides
+
+CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.o.provides.build: CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.o
 
 
 # Object files for target CPP2018
 CPP2018_OBJECTS = \
 "CMakeFiles/CPP2018.dir/main.cpp.o" \
-"CMakeFiles/CPP2018.dir/Pyramid_1.cpp.o" \
-"CMakeFiles/CPP2018.dir/Pyramid_2.cpp.o"
+"CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.o" \
+"CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.o" \
+"CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.o"
 
 # External object files for target CPP2018
 CPP2018_EXTERNAL_OBJECTS =
 
 CPP2018: CMakeFiles/CPP2018.dir/main.cpp.o
-CPP2018: CMakeFiles/CPP2018.dir/Pyramid_1.cpp.o
-CPP2018: CMakeFiles/CPP2018.dir/Pyramid_2.cpp.o
+CPP2018: CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.o
+CPP2018: CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.o
+CPP2018: CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.o
 CPP2018: CMakeFiles/CPP2018.dir/build.make
 CPP2018: CMakeFiles/CPP2018.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CPP2018"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CPP2018"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CPP2018.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -152,8 +178,9 @@ CMakeFiles/CPP2018.dir/build: CPP2018
 .PHONY : CMakeFiles/CPP2018.dir/build
 
 CMakeFiles/CPP2018.dir/requires: CMakeFiles/CPP2018.dir/main.cpp.o.requires
-CMakeFiles/CPP2018.dir/requires: CMakeFiles/CPP2018.dir/Pyramid_1.cpp.o.requires
-CMakeFiles/CPP2018.dir/requires: CMakeFiles/CPP2018.dir/Pyramid_2.cpp.o.requires
+CMakeFiles/CPP2018.dir/requires: CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.o.requires
+CMakeFiles/CPP2018.dir/requires: CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.o.requires
+CMakeFiles/CPP2018.dir/requires: CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.o.requires
 
 .PHONY : CMakeFiles/CPP2018.dir/requires
 

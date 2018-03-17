@@ -57,38 +57,38 @@ include CMakeFiles/Pyramid_2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Pyramid_2.dir/flags.make
 
-CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.o: CMakeFiles/Pyramid_2.dir/flags.make
-CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.o: ../Pyramid_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.o -c /home/shahriyer/Desktop/CPP2018/Pyramid_2.cpp
+CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.o: CMakeFiles/Pyramid_2.dir/flags.make
+CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.o: ../Pyramids/Pyramid_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.o -c /home/shahriyer/Desktop/CPP2018/Pyramids/Pyramid_2.cpp
 
-CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shahriyer/Desktop/CPP2018/Pyramid_2.cpp > CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.i
+CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shahriyer/Desktop/CPP2018/Pyramids/Pyramid_2.cpp > CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.i
 
-CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shahriyer/Desktop/CPP2018/Pyramid_2.cpp -o CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.s
+CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shahriyer/Desktop/CPP2018/Pyramids/Pyramid_2.cpp -o CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.s
 
-CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.o.requires:
+CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.o.requires:
 
-.PHONY : CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.o.requires
+.PHONY : CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.o.requires
 
-CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.o.provides: CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Pyramid_2.dir/build.make CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.o.provides.build
-.PHONY : CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.o.provides
+CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.o.provides: CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Pyramid_2.dir/build.make CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.o.provides.build
+.PHONY : CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.o.provides
 
-CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.o.provides.build: CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.o
+CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.o.provides.build: CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.o
 
 
 # Object files for target Pyramid_2
 Pyramid_2_OBJECTS = \
-"CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.o"
+"CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.o"
 
 # External object files for target Pyramid_2
 Pyramid_2_EXTERNAL_OBJECTS =
 
-Pyramid_2: CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.o
+Pyramid_2: CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.o
 Pyramid_2: CMakeFiles/Pyramid_2.dir/build.make
 Pyramid_2: CMakeFiles/Pyramid_2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Pyramid_2"
@@ -99,7 +99,7 @@ CMakeFiles/Pyramid_2.dir/build: Pyramid_2
 
 .PHONY : CMakeFiles/Pyramid_2.dir/build
 
-CMakeFiles/Pyramid_2.dir/requires: CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.o.requires
+CMakeFiles/Pyramid_2.dir/requires: CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.o.requires
 
 .PHONY : CMakeFiles/Pyramid_2.dir/requires
 

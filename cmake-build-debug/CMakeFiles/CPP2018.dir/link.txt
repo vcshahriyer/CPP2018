@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/CPP2018.dir/main.cpp.o CMakeFiles/CPP2018.dir/Pyramid_1.cpp.o CMakeFiles/CPP2018.dir/Pyramid_2.cpp.o  -o CPP2018 
+/usr/bin/c++  -g   CMakeFiles/CPP2018.dir/main.cpp.o CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.o CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.o CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.o  -o CPP2018 

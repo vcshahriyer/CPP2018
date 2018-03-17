@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named lightoj1001
+
+# Build rule for target.
+lightoj1001: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lightoj1001
+.PHONY : lightoj1001
+
+# fast build rule for target.
+lightoj1001/fast:
+	$(MAKE) -f CMakeFiles/lightoj1001.dir/build.make CMakeFiles/lightoj1001.dir/build
+.PHONY : lightoj1001/fast
+
+#=============================================================================
+# Target rules for targets named Pyramid_3
+
+# Build rule for target.
+Pyramid_3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pyramid_3
+.PHONY : Pyramid_3
+
+# fast build rule for target.
+Pyramid_3/fast:
+	$(MAKE) -f CMakeFiles/Pyramid_3.dir/build.make CMakeFiles/Pyramid_3.dir/build
+.PHONY : Pyramid_3/fast
+
+#=============================================================================
 # Target rules for targets named Pyramid_2
 
 # Build rule for target.
@@ -149,65 +175,122 @@ CPP2018/fast:
 	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/build
 .PHONY : CPP2018/fast
 
-Pyramid_1.o: Pyramid_1.cpp.o
+LightOJ/lightoj1001.o: LightOJ/lightoj1001.cpp.o
 
-.PHONY : Pyramid_1.o
-
-# target to build an object file
-Pyramid_1.cpp.o:
-	$(MAKE) -f CMakeFiles/Pyramid_1.dir/build.make CMakeFiles/Pyramid_1.dir/Pyramid_1.cpp.o
-	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/Pyramid_1.cpp.o
-.PHONY : Pyramid_1.cpp.o
-
-Pyramid_1.i: Pyramid_1.cpp.i
-
-.PHONY : Pyramid_1.i
-
-# target to preprocess a source file
-Pyramid_1.cpp.i:
-	$(MAKE) -f CMakeFiles/Pyramid_1.dir/build.make CMakeFiles/Pyramid_1.dir/Pyramid_1.cpp.i
-	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/Pyramid_1.cpp.i
-.PHONY : Pyramid_1.cpp.i
-
-Pyramid_1.s: Pyramid_1.cpp.s
-
-.PHONY : Pyramid_1.s
-
-# target to generate assembly for a file
-Pyramid_1.cpp.s:
-	$(MAKE) -f CMakeFiles/Pyramid_1.dir/build.make CMakeFiles/Pyramid_1.dir/Pyramid_1.cpp.s
-	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/Pyramid_1.cpp.s
-.PHONY : Pyramid_1.cpp.s
-
-Pyramid_2.o: Pyramid_2.cpp.o
-
-.PHONY : Pyramid_2.o
+.PHONY : LightOJ/lightoj1001.o
 
 # target to build an object file
-Pyramid_2.cpp.o:
-	$(MAKE) -f CMakeFiles/Pyramid_2.dir/build.make CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.o
-	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/Pyramid_2.cpp.o
-.PHONY : Pyramid_2.cpp.o
+LightOJ/lightoj1001.cpp.o:
+	$(MAKE) -f CMakeFiles/lightoj1001.dir/build.make CMakeFiles/lightoj1001.dir/LightOJ/lightoj1001.cpp.o
+	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.o
+.PHONY : LightOJ/lightoj1001.cpp.o
 
-Pyramid_2.i: Pyramid_2.cpp.i
+LightOJ/lightoj1001.i: LightOJ/lightoj1001.cpp.i
 
-.PHONY : Pyramid_2.i
+.PHONY : LightOJ/lightoj1001.i
 
 # target to preprocess a source file
-Pyramid_2.cpp.i:
-	$(MAKE) -f CMakeFiles/Pyramid_2.dir/build.make CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.i
-	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/Pyramid_2.cpp.i
-.PHONY : Pyramid_2.cpp.i
+LightOJ/lightoj1001.cpp.i:
+	$(MAKE) -f CMakeFiles/lightoj1001.dir/build.make CMakeFiles/lightoj1001.dir/LightOJ/lightoj1001.cpp.i
+	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.i
+.PHONY : LightOJ/lightoj1001.cpp.i
 
-Pyramid_2.s: Pyramid_2.cpp.s
+LightOJ/lightoj1001.s: LightOJ/lightoj1001.cpp.s
 
-.PHONY : Pyramid_2.s
+.PHONY : LightOJ/lightoj1001.s
 
 # target to generate assembly for a file
-Pyramid_2.cpp.s:
-	$(MAKE) -f CMakeFiles/Pyramid_2.dir/build.make CMakeFiles/Pyramid_2.dir/Pyramid_2.cpp.s
-	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/Pyramid_2.cpp.s
-.PHONY : Pyramid_2.cpp.s
+LightOJ/lightoj1001.cpp.s:
+	$(MAKE) -f CMakeFiles/lightoj1001.dir/build.make CMakeFiles/lightoj1001.dir/LightOJ/lightoj1001.cpp.s
+	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.s
+.PHONY : LightOJ/lightoj1001.cpp.s
+
+Pyramids/Pyramid_1.o: Pyramids/Pyramid_1.cpp.o
+
+.PHONY : Pyramids/Pyramid_1.o
+
+# target to build an object file
+Pyramids/Pyramid_1.cpp.o:
+	$(MAKE) -f CMakeFiles/Pyramid_1.dir/build.make CMakeFiles/Pyramid_1.dir/Pyramids/Pyramid_1.cpp.o
+	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.o
+.PHONY : Pyramids/Pyramid_1.cpp.o
+
+Pyramids/Pyramid_1.i: Pyramids/Pyramid_1.cpp.i
+
+.PHONY : Pyramids/Pyramid_1.i
+
+# target to preprocess a source file
+Pyramids/Pyramid_1.cpp.i:
+	$(MAKE) -f CMakeFiles/Pyramid_1.dir/build.make CMakeFiles/Pyramid_1.dir/Pyramids/Pyramid_1.cpp.i
+	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.i
+.PHONY : Pyramids/Pyramid_1.cpp.i
+
+Pyramids/Pyramid_1.s: Pyramids/Pyramid_1.cpp.s
+
+.PHONY : Pyramids/Pyramid_1.s
+
+# target to generate assembly for a file
+Pyramids/Pyramid_1.cpp.s:
+	$(MAKE) -f CMakeFiles/Pyramid_1.dir/build.make CMakeFiles/Pyramid_1.dir/Pyramids/Pyramid_1.cpp.s
+	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/Pyramids/Pyramid_1.cpp.s
+.PHONY : Pyramids/Pyramid_1.cpp.s
+
+Pyramids/Pyramid_2.o: Pyramids/Pyramid_2.cpp.o
+
+.PHONY : Pyramids/Pyramid_2.o
+
+# target to build an object file
+Pyramids/Pyramid_2.cpp.o:
+	$(MAKE) -f CMakeFiles/Pyramid_2.dir/build.make CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.o
+	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.o
+.PHONY : Pyramids/Pyramid_2.cpp.o
+
+Pyramids/Pyramid_2.i: Pyramids/Pyramid_2.cpp.i
+
+.PHONY : Pyramids/Pyramid_2.i
+
+# target to preprocess a source file
+Pyramids/Pyramid_2.cpp.i:
+	$(MAKE) -f CMakeFiles/Pyramid_2.dir/build.make CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.i
+	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.i
+.PHONY : Pyramids/Pyramid_2.cpp.i
+
+Pyramids/Pyramid_2.s: Pyramids/Pyramid_2.cpp.s
+
+.PHONY : Pyramids/Pyramid_2.s
+
+# target to generate assembly for a file
+Pyramids/Pyramid_2.cpp.s:
+	$(MAKE) -f CMakeFiles/Pyramid_2.dir/build.make CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.s
+	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/Pyramids/Pyramid_2.cpp.s
+.PHONY : Pyramids/Pyramid_2.cpp.s
+
+Pyramids/Pyramid_3.o: Pyramids/Pyramid_3.cpp.o
+
+.PHONY : Pyramids/Pyramid_3.o
+
+# target to build an object file
+Pyramids/Pyramid_3.cpp.o:
+	$(MAKE) -f CMakeFiles/Pyramid_3.dir/build.make CMakeFiles/Pyramid_3.dir/Pyramids/Pyramid_3.cpp.o
+.PHONY : Pyramids/Pyramid_3.cpp.o
+
+Pyramids/Pyramid_3.i: Pyramids/Pyramid_3.cpp.i
+
+.PHONY : Pyramids/Pyramid_3.i
+
+# target to preprocess a source file
+Pyramids/Pyramid_3.cpp.i:
+	$(MAKE) -f CMakeFiles/Pyramid_3.dir/build.make CMakeFiles/Pyramid_3.dir/Pyramids/Pyramid_3.cpp.i
+.PHONY : Pyramids/Pyramid_3.cpp.i
+
+Pyramids/Pyramid_3.s: Pyramids/Pyramid_3.cpp.s
+
+.PHONY : Pyramids/Pyramid_3.s
+
+# target to generate assembly for a file
+Pyramids/Pyramid_3.cpp.s:
+	$(MAKE) -f CMakeFiles/Pyramid_3.dir/build.make CMakeFiles/Pyramid_3.dir/Pyramids/Pyramid_3.cpp.s
+.PHONY : Pyramids/Pyramid_3.cpp.s
 
 main.o: main.cpp.o
 
@@ -244,15 +327,23 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... lightoj1001"
+	@echo "... Pyramid_3"
 	@echo "... Pyramid_2"
 	@echo "... Pyramid_1"
 	@echo "... CPP2018"
-	@echo "... Pyramid_1.o"
-	@echo "... Pyramid_1.i"
-	@echo "... Pyramid_1.s"
-	@echo "... Pyramid_2.o"
-	@echo "... Pyramid_2.i"
-	@echo "... Pyramid_2.s"
+	@echo "... LightOJ/lightoj1001.o"
+	@echo "... LightOJ/lightoj1001.i"
+	@echo "... LightOJ/lightoj1001.s"
+	@echo "... Pyramids/Pyramid_1.o"
+	@echo "... Pyramids/Pyramid_1.i"
+	@echo "... Pyramids/Pyramid_1.s"
+	@echo "... Pyramids/Pyramid_2.o"
+	@echo "... Pyramids/Pyramid_2.i"
+	@echo "... Pyramids/Pyramid_2.s"
+	@echo "... Pyramids/Pyramid_3.o"
+	@echo "... Pyramids/Pyramid_3.i"
+	@echo "... Pyramids/Pyramid_3.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

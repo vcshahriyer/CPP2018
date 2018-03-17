@@ -45,6 +45,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/lightoj1001.dir/DependInfo.cmake"
+  "CMakeFiles/Pyramid_3.dir/DependInfo.cmake"
   "CMakeFiles/Pyramid_2.dir/DependInfo.cmake"
   "CMakeFiles/Pyramid_1.dir/DependInfo.cmake"
   "CMakeFiles/CPP2018.dir/DependInfo.cmake"
