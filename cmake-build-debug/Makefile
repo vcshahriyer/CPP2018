@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named lightoj1008
+
+# Build rule for target.
+lightoj1008: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lightoj1008
+.PHONY : lightoj1008
+
+# fast build rule for target.
+lightoj1008/fast:
+	$(MAKE) -f CMakeFiles/lightoj1008.dir/build.make CMakeFiles/lightoj1008.dir/build
+.PHONY : lightoj1008/fast
+
+#=============================================================================
+# Target rules for targets named lightoj1010
+
+# Build rule for target.
+lightoj1010: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lightoj1010
+.PHONY : lightoj1010
+
+# fast build rule for target.
+lightoj1010/fast:
+	$(MAKE) -f CMakeFiles/lightoj1010.dir/build.make CMakeFiles/lightoj1010.dir/build
+.PHONY : lightoj1010/fast
+
+#=============================================================================
 # Target rules for targets named lightoj1001
 
 # Build rule for target.
@@ -204,6 +230,66 @@ LightOJ/lightoj1001.cpp.s:
 	$(MAKE) -f CMakeFiles/lightoj1001.dir/build.make CMakeFiles/lightoj1001.dir/LightOJ/lightoj1001.cpp.s
 	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/LightOJ/lightoj1001.cpp.s
 .PHONY : LightOJ/lightoj1001.cpp.s
+
+LightOJ/lightoj1008.o: LightOJ/lightoj1008.cpp.o
+
+.PHONY : LightOJ/lightoj1008.o
+
+# target to build an object file
+LightOJ/lightoj1008.cpp.o:
+	$(MAKE) -f CMakeFiles/lightoj1008.dir/build.make CMakeFiles/lightoj1008.dir/LightOJ/lightoj1008.cpp.o
+	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/LightOJ/lightoj1008.cpp.o
+.PHONY : LightOJ/lightoj1008.cpp.o
+
+LightOJ/lightoj1008.i: LightOJ/lightoj1008.cpp.i
+
+.PHONY : LightOJ/lightoj1008.i
+
+# target to preprocess a source file
+LightOJ/lightoj1008.cpp.i:
+	$(MAKE) -f CMakeFiles/lightoj1008.dir/build.make CMakeFiles/lightoj1008.dir/LightOJ/lightoj1008.cpp.i
+	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/LightOJ/lightoj1008.cpp.i
+.PHONY : LightOJ/lightoj1008.cpp.i
+
+LightOJ/lightoj1008.s: LightOJ/lightoj1008.cpp.s
+
+.PHONY : LightOJ/lightoj1008.s
+
+# target to generate assembly for a file
+LightOJ/lightoj1008.cpp.s:
+	$(MAKE) -f CMakeFiles/lightoj1008.dir/build.make CMakeFiles/lightoj1008.dir/LightOJ/lightoj1008.cpp.s
+	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/LightOJ/lightoj1008.cpp.s
+.PHONY : LightOJ/lightoj1008.cpp.s
+
+LightOJ/lightoj1010.o: LightOJ/lightoj1010.cpp.o
+
+.PHONY : LightOJ/lightoj1010.o
+
+# target to build an object file
+LightOJ/lightoj1010.cpp.o:
+	$(MAKE) -f CMakeFiles/lightoj1010.dir/build.make CMakeFiles/lightoj1010.dir/LightOJ/lightoj1010.cpp.o
+	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/LightOJ/lightoj1010.cpp.o
+.PHONY : LightOJ/lightoj1010.cpp.o
+
+LightOJ/lightoj1010.i: LightOJ/lightoj1010.cpp.i
+
+.PHONY : LightOJ/lightoj1010.i
+
+# target to preprocess a source file
+LightOJ/lightoj1010.cpp.i:
+	$(MAKE) -f CMakeFiles/lightoj1010.dir/build.make CMakeFiles/lightoj1010.dir/LightOJ/lightoj1010.cpp.i
+	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/LightOJ/lightoj1010.cpp.i
+.PHONY : LightOJ/lightoj1010.cpp.i
+
+LightOJ/lightoj1010.s: LightOJ/lightoj1010.cpp.s
+
+.PHONY : LightOJ/lightoj1010.s
+
+# target to generate assembly for a file
+LightOJ/lightoj1010.cpp.s:
+	$(MAKE) -f CMakeFiles/lightoj1010.dir/build.make CMakeFiles/lightoj1010.dir/LightOJ/lightoj1010.cpp.s
+	$(MAKE) -f CMakeFiles/CPP2018.dir/build.make CMakeFiles/CPP2018.dir/LightOJ/lightoj1010.cpp.s
+.PHONY : LightOJ/lightoj1010.cpp.s
 
 Pyramids/Pyramid_1.o: Pyramids/Pyramid_1.cpp.o
 
@@ -327,6 +413,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... lightoj1008"
+	@echo "... lightoj1010"
 	@echo "... lightoj1001"
 	@echo "... Pyramid_3"
 	@echo "... Pyramid_2"
@@ -335,6 +423,12 @@ help:
 	@echo "... LightOJ/lightoj1001.o"
 	@echo "... LightOJ/lightoj1001.i"
 	@echo "... LightOJ/lightoj1001.s"
+	@echo "... LightOJ/lightoj1008.o"
+	@echo "... LightOJ/lightoj1008.i"
+	@echo "... LightOJ/lightoj1008.s"
+	@echo "... LightOJ/lightoj1010.o"
+	@echo "... LightOJ/lightoj1010.i"
+	@echo "... LightOJ/lightoj1010.s"
 	@echo "... Pyramids/Pyramid_1.o"
 	@echo "... Pyramids/Pyramid_1.i"
 	@echo "... Pyramids/Pyramid_1.s"

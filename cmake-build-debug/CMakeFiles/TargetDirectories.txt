@@ -1,5 +1,7 @@
 /home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles/lightoj1008.dir
+/home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles/lightoj1010.dir
 /home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles/lightoj1001.dir
 /home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles/Pyramid_3.dir
 /home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles/Pyramid_2.dir
