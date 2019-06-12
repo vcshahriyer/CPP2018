@@ -11,7 +11,7 @@ int main()
     {
         cin >> l >> k;
         vector<int> arr;
-        int max = 0, area = 0, cnt = 0, carea, ch, i = 0;
+        int max = 0, area = 0, cnt = 0, carea, ch;
         for (int i = 0; i < k; i++)
         {
             cin >> x;
