@@ -1,4 +1,4 @@
-/snap/clion/12/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/shahriyer/Desktop/CPP2018
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\CPP2018
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/shahriyer/Desktop/CPP2018/cmake-build-debug
+-- Build files have been written to: E:/CPP2018/cmake-build-debug

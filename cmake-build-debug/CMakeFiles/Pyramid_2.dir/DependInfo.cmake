@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shahriyer/Desktop/CPP2018/Pyramids/Pyramid_2.cpp" "/home/shahriyer/Desktop/CPP2018/cmake-build-debug/CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.o"
+  "E:/CPP2018/Pyramids/Pyramid_2.cpp" "E:/CPP2018/cmake-build-debug/CMakeFiles/Pyramid_2.dir/Pyramids/Pyramid_2.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
