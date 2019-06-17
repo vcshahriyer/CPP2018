@@ -1,29 +1,27 @@
-#include<iostream>
+// for row 3
+// . . * . .
+// . * * * .
+// * * * * *
+
+#include <iostream>
 using namespace std;
 
-int main(){
-    int row=3;
+int main() {
+  int row = 5;
 
-
-    for (int i=row;i>=1;i--){
-
-        for (int point=i;point>1;point--){
-            cout<<". ";
-        }
-        for (int star=i;star<=row;star++){
-            cout<<"* ";
-        }
-
-        for (int star=i;star<row;star++){
-            cout<<"* ";
-        }
-        for (int point=i;point>1;point--){
-            cout<<". ";
-        }
-        cout<<"\n";
-
+  // Looping through first half of pattern 1 to 5 row 5times.
+  for (int i = 1; i <= row; i++) {
+    // printing "." of left side
+    for (int j = 0; j < row - i; j++) {
+      cout << ". ";
     }
-
-
-
+    // printing "* " of the middle {(CurrentRow*2) -1} times
+    for (int k = 0; k < i * 2 - 1; k++) {
+      cout << "* ";
+    }
+    for (int j = 0; j < row - i; j++) {
+      cout << ". ";
+    }
+    cout << "\n";
+  }
 }
