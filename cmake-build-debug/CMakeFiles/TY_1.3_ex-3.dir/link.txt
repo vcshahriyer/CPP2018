@@ -1,3 +1,0 @@
-"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\TY_1.3_ex-3.dir/objects.a
-C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\TY_1.3_ex-3.dir/objects.a @CMakeFiles\TY_1.3_ex-3.dir\objects1.rsp
-C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\TY_1.3_ex-3.dir/objects.a -Wl,--no-whole-archive  -o TY_1.3_ex-3.exe -Wl,--out-implib,libTY_1.3_ex-3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TY_1.3_ex-3.dir\linklibs.rsp

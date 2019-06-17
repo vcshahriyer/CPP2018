@@ -1,3 +1,0 @@
-"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\CPP2018.dir/objects.a
-C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\CPP2018.dir/objects.a @CMakeFiles\CPP2018.dir\objects1.rsp
-C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\CPP2018.dir/objects.a -Wl,--no-whole-archive  -o CPP2018.exe -Wl,--out-implib,libCPP2018.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CPP2018.dir\linklibs.rsp
