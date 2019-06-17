@@ -7,6 +7,6 @@ int main() {
   float y, result;
   cin >> x >> y;
   result = x / y;
-  result = ceilf(result * 1000) / 1000;
-  cout << result << " km/l" << endl;
+  // result = ceilf(result * 1000) / 1000;
+  cout << fixed << setprecision(3) << result << " km/l" << endl;
 }
