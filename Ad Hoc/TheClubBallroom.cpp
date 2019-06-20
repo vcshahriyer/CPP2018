@@ -57,12 +57,6 @@ int main()
         }
         n = n * 100;
         m = m * 100;
-        if (m % l != 0 && n % l != 0)
-        {
-            cout << "impossivel" << endl;
-            return 0;
-        }
-
         if (m % l == 0)
         {
             // Here height n
