@@ -15,19 +15,34 @@ int main()
         for (int i = 0; i < n; i++)
         {
             cin >> a >> b;
-            if (a == "um")
+            switch (a.at(0))
+            {
+            case 117:
                 um++;
-            else if (a == "dois")
+                break;
+            case 100:
                 dois++;
-            else if (a == "tres")
+                break;
+            case 116:
                 tres++;
-
-            if (b == "circulo" or b == "circulos")
+                break;
+            default:
+                return 0;
+            }
+            switch (b.at(0))
+            {
+            case 99:
                 circulo++;
-            else if (b == "quadrado" or b == "quadrados")
+                break;
+            case 113:
                 quadrado++;
-            else if (b == "triangulo" or b == "triangulos")
+                break;
+            case 116:
                 triangulo++;
+                break;
+            default:
+                return 0;
+            }
         }
         if (minimum > um)
             minimum = um;
